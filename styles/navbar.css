@@ -1,0 +1,43 @@
+body {
+    background-color: #131928;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    border: 1px solid red;
+    background-color: #131927;
+    height: 60px;
+}
+
+#navbar>div {
+    width: 50%;
+    margin-top: 15px;
+}
+
+#left_side {
+    display: flex;
+    cursor: pointer;
+}
+
+#left_side>div {
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#right_side>button {
+    margin-left: 30px;
+    color: white;
+    background-color: #131928;
+    border: none;
+    cursor: pointer;
+}
+
+#right_side>input {
+    margin-left: 200px;
+    color: black;
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+}
