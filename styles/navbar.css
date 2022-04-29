@@ -41,3 +41,13 @@ body {
     height: 20px;
     font-weight: bold;
 }
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:auto;
+    gap: 20px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
